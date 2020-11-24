@@ -14,6 +14,9 @@ import { TrainingCourseCreateComponent } from './training-course-create/training
   imports: [
     CommonModule,
     TrainingCourseRoutingModule
+  ],
+  exports: [
+    TrainingCourseCreateComponent
   ]
 })
 export class TrainingCourseModule { }
